@@ -1,9 +1,16 @@
-# Information required for the next website revision
+# SCS Lab website — remaining checks
 
-1. **Public email** — verified official email address and permission to display it on Contact; then add a mailto link.
-2. **Official publication details** — a verified bibliography with exact publication titles, author order, journal, year, volume/issue/pages and DOI. Update Publications and Home research highlights together.
-3. **Research imagery** — approved experiment photos, Abaqus contour plots, schematic figures or crack-detection outputs; include permissions and credits. Current SVG diagrams are illustrative only.
-4. **Current members** — Kang Kyung-min (강경민) and Ryu Yeon-woo (류연우), third-year undergraduates, have been added without portraits; verify any further profile details and consent for additional media.
-5. **Recruitment policy** — verify current openings and exact entry requirements, scholarships and funding before publishing any such claims; current text only accepts inquiries.
-6. **Location** — confirm the building entrance and room details before publishing detailed wayfinding directions.
-7. **Institutional identity** — verify logo/mark usage permissions prior to adding university branding.
+Completed from the laboratory director's supplied information:
+- Public contact email **leejs@deu.ac.kr** appears on Contact and the Professor profile.
+- International journal 16, domestic journal 10, conference 15, patent 6 entries are published in Publications.
+- DOI links appear on all 26 journal records and three selected Home articles.
+- Third-year undergraduate researchers **강경민** and **류연우** appear on Members (no student photos).
+- The six supplied research images are displayed in a self-hosted SVG photo montage in Research (and selected images on Home).
+
+Remaining checks:
+1. Test all external DOI redirects and check spelling, issue numbers, and author order against the publishers' final records.
+2. Confirm research image specimen names, contexts, dates, attribution, and public-use permissions before writing more specific captions.
+3. Confirm consent and any additional member biography/headshots before publishing more personal details.
+4. Confirm current recruitment openings, admission requirements, funding or scholarships before making affirmative claims; current copy invites inquiries only.
+5. Confirm precise campus building entrance and room directions before creating a route map.
+6. Verify institution branding and logo permissions before using marks.
