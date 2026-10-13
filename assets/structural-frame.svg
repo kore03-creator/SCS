@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 900" fill="none">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#143747"/><stop offset="1" stop-color="#091d28"/></linearGradient><linearGradient id="steel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b7dfe1"/><stop offset="1" stop-color="#497a84"/></linearGradient><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9ecacc" stop-opacity=".75"/><stop offset="1" stop-color="#2d5d69" stop-opacity=".6"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#c0e0df" stroke-opacity=".06" stroke-width="1"/></pattern></defs>
+<rect width="860" height="900" rx="4" fill="url(#bg)"/><rect width="860" height="900" fill="url(#grid)"/>
+<g opacity=".19" stroke="#b8d8d7" stroke-width="1"><path d="M85 756L790 350"/><path d="M80 676L785 270"/><path d="M75 595L780 190"/><path d="M260 850L260 128"/><path d="M420 850V76"/><path d="M580 850V30"/></g>
+<g stroke="#cde4df" stroke-opacity=".2" stroke-width="2" stroke-dasharray="5 9"><path d="M108 704L414 874L747 684L441 515Z"/><path d="M108 386L414 558L747 368L441 196Z"/></g>
+<g stroke-linejoin="round">
+<path d="M160 304L455 139L737 302L443 467Z" fill="#1e4654" stroke="#9dbabe" stroke-width="2"/>
+<path d="M160 304L160 683L443 841V467Z" fill="#0e2b3a" stroke="#7da3ab" stroke-width="2"/>
+<path d="M443 467V841L737 676V302Z" fill="#153948" stroke="#7da3ab" stroke-width="2"/>
+<path d="M160 304L443 467L737 302" stroke="url(#steel)" stroke-width="16"/><path d="M443 467V841" stroke="url(#steel)" stroke-width="16"/>
+<path d="M160 304V683M737 302V676" stroke="url(#steel)" stroke-width="16"/>
+<path d="M160 490L443 653L737 489" stroke="#78a6ac" stroke-width="12"/>
+<path d="M263 548L263 361M349 598L349 410M542 599V412M645 541V361" stroke="#6c9ca4" stroke-width="8"/>
+<path d="M160 490L443 467L737 489" stroke="#0c2a37" stroke-opacity=".5" stroke-width="2"/>
+<path d="M160 304L443 841M443 467L160 683M737 302L443 841M443 467L737 676" stroke="#78b4b9" stroke-opacity=".32" stroke-width="3"/>
+<path d="M160 304L443 467L737 302" stroke="#c8e3df" stroke-opacity=".3" stroke-width="2"/>
+</g>
+<g stroke="#b9dfda" stroke-width="1.7" fill="none" opacity=".75"><path d="M160 266V228M737 263V226M160 239L737 239"/><path d="M153 235l7 4-7 4M744 235l-7 4 7 4"/><path d="M782 304h34M782 676h34M800 304v372"/><path d="M796 313l4-9 4 9M796 667l4 9 4-9"/></g>
+<g fill="#bfdfdc" font-family="Arial, sans-serif" font-size="15" letter-spacing="2"><text x="367" y="225">L / 2</text><text x="797" y="504" transform="rotate(90 797 504)">STRUCTURAL SYSTEM</text><text x="69" y="90" opacity=".5">FIG. 01 — STRUCTURAL STUDY</text><text x="62" y="825" font-size="12" opacity=".6">SCS LAB / CONCEPTUAL FRAME MODEL</text></g>
+<g fill="#9ed5d1"><circle cx="443" cy="467" r="8"/><circle cx="160" cy="304" r="5"/><circle cx="737" cy="302" r="5"/></g>
+</svg>
