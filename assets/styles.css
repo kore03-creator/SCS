@@ -114,3 +114,45 @@ body{font-size:16px;line-height:1.78}
 .hero-art{height:310px}
 .map-panel-label strong{font-size:15px}
 }
+/* 2026-10-13 verified bibliography, lab members and contact */
+.email-link{color:#0b7180;text-decoration:underline;text-underline-offset:4px;font-weight:700;overflow-wrap:anywhere}
+.inline-doi{color:#087481;text-decoration:underline;text-underline-offset:3px;font-weight:700}
+.publications-section{padding-top:72px}
+.pub-verification{background:#ecf5f3;border-left:4px solid #16838a;padding:20px 26px;margin-bottom:25px}
+.pub-verification strong{color:#123f49;font-size:15px}
+.pub-verification p{margin:8px 0 0;font-size:14px}
+.pub-sections{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-bottom:55px}
+.pub-sections a{display:flex;justify-content:space-between;align-items:center;gap:5px;border:1px solid #bdd4d1;padding:16px 17px;font-weight:700;font-size:14px}
+.pub-sections a:hover{background:#e5f2ef}
+.pub-sections strong{color:#087b85}
+.pub-category{margin:0 0 75px;scroll-margin-top:108px}
+.pub-category-title{border-bottom:2px solid #123c48;padding-bottom:20px;margin-bottom:24px}
+.pub-category-title h2{font-size:clamp(25px,3.5vw,42px);margin:10px 0}
+.pub-category-title p{margin:0;font-size:14px}
+.pub-year-block{margin:35px 0}
+.pub-year-block h3{font-size:24px;color:#0c6872}
+.reference-list{border-top:1px solid var(--line)}
+.full-publication{display:grid;grid-template-columns:44px 1fr;gap:18px;padding:23px 0;border-bottom:1px solid var(--line)}
+.full-publication .pub-index{padding-top:5px}
+.citation-text{font-size:15px;line-height:1.75;color:#273f48;margin:0}
+.citation-summary{font-size:14px;line-height:1.75;margin:10px 0 0;color:#667a80}
+.pub-actions{display:flex;align-items:center;gap:18px;margin-top:11px;font-size:13px;color:#73878d}
+.pub-actions a{color:#06717b;font-weight:800;text-decoration:underline;text-underline-offset:3px;min-height:36px;display:inline-flex;align-items:center}
+.pub-expand{border:1px solid var(--line);margin:15px 0}
+.pub-expand summary{padding:21px 23px;font-weight:800;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:10px}
+.pub-expand summary span{font-size:13px;color:#66777c}
+.pub-expand[open] summary{background:#f1f6f4}
+.pub-expand ol,.patent-list{padding:14px 34px 21px 48px;margin:0}
+.pub-expand li,.patent-list li{font-size:14px;line-height:1.75;margin:0 0 15px;padding-left:6px}
+.patent-list{padding-top:10px}
+.patent-list p{color:#273f48;margin:0}
+.patent-list small{display:block;color:#71828a;font-size:13px;margin-top:5px}
+.pub-cta{background:#e3f0ed;padding:34px 36px;margin-top:55px}
+.pub-cta h2{font-size:30px;margin-bottom:7px}
+.student-member-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.student-member{background:#f2f7f6;border:1px solid #dbe8e5;display:flex;align-items:center;gap:24px;padding:32px}
+.student-avatar{flex-shrink:0;display:grid;place-items:center;height:94px;width:94px;border-radius:50%;background:#d1e4e0;color:#206b70;font-size:36px;font-weight:700}
+.student-member h3{font-size:26px;margin:6px 0}
+.student-member p{margin:0;font-size:15px}
+.member-photo-note{font-size:13px;margin:16px 0 0}
+@media(max-width:760px){.pub-sections{grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:36px}.pub-sections a{padding:12px;font-size:13px;min-height:50px}.pub-category{margin-bottom:54px}.pub-verification{padding:17px 19px}.full-publication{grid-template-columns:28px 1fr;gap:12px}.citation-text{font-size:14px}.citation-summary{font-size:13px}.pub-expand summary{padding:17px;font-size:14px}.pub-expand summary span{font-size:12px}.pub-expand ol,.patent-list{padding-left:30px;padding-right:18px}.student-member-grid{grid-template-columns:1fr}.student-member{padding:21px;gap:16px}.student-avatar{height:70px;width:70px;font-size:27px}.student-member h3{font-size:22px}.pub-cta{padding:26px 21px}}
