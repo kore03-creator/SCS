@@ -28,3 +28,6 @@ GitHub Pages publishes the `main` branch root to https://kore03-creator.github.i
 ## Backup and editorial follow-ups
 - Pre-change backup branch: `backup-before-2026-10-13-site-refresh`
 - See `CHANGELOG.md` and `CONTENT_CHECKLIST.md` for details.
+
+## Research gallery
+The research-photo montage is an SVG image containing embedded image data from the six files supplied by the lab director. CSS uses six background positions on a 2×3 sprite, avoiding third-party hosting.

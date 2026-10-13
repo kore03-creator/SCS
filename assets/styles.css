@@ -156,3 +156,21 @@ body{font-size:16px;line-height:1.78}
 .student-member p{margin:0;font-size:15px}
 .member-photo-note{font-size:13px;margin:16px 0 0}
 @media(max-width:760px){.pub-sections{grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:36px}.pub-sections a{padding:12px;font-size:13px;min-height:50px}.pub-category{margin-bottom:54px}.pub-verification{padding:17px 19px}.full-publication{grid-template-columns:28px 1fr;gap:12px}.citation-text{font-size:14px}.citation-summary{font-size:13px}.pub-expand summary{padding:17px;font-size:14px}.pub-expand summary span{font-size:12px}.pub-expand ol,.patent-list{padding-left:30px;padding-right:18px}.student-member-grid{grid-template-columns:1fr}.student-member{padding:21px;gap:16px}.student-avatar{height:70px;width:70px;font-size:27px}.student-member h3{font-size:22px}.pub-cta{padding:26px 21px}}
+
+/* Real research imagery 2026-10-13 */
+.lab-gallery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.lab-gallery-item{margin:0;background:#fff;border:1px solid var(--line);overflow:hidden}
+.lab-gallery-photo{width:100%;aspect-ratio:210 / 132;background-color:#edf2f1;background-image:url('research-gallery.svg');background-repeat:no-repeat;background-size:200% 300%;background-position:0 0}
+.lab-gallery-photo.g0{background-position:0 0}
+.lab-gallery-photo.g1{background-position:100% 0}
+.lab-gallery-photo.g2{background-position:0 50%}
+.lab-gallery-photo.g3{background-position:100% 50%}
+.lab-gallery-photo.g4{background-position:0 100%}
+.lab-gallery-photo.g5{background-position:100% 100%}
+.lab-gallery-item figcaption{display:flex;flex-direction:column;gap:7px;padding:19px 20px 22px}
+.lab-gallery-item strong{font-family:'Manrope','Noto Sans KR',sans-serif;font-size:17px;color:var(--ink)}
+.lab-gallery-item span{font-size:13px;color:var(--muted);line-height:1.65}
+.lab-gallery-home{padding-top:75px}
+.lab-gallery-section{scroll-margin-top:95px}
+@media(max-width:900px){.lab-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:580px){.lab-gallery-grid{grid-template-columns:1fr;gap:15px}.lab-gallery-item figcaption{padding:17px}.lab-gallery-item strong{font-size:16px}.lab-gallery-item span{font-size:14px}.lab-gallery-home{padding-top:55px}}
