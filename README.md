@@ -1,35 +1,30 @@
 # SCS Lab Website
 
-Steel & Composite Structures Laboratory — Department of Architectural Engineering, Dong-Eui University.
+**Steel & Composite Structures Laboratory (SCS Lab)**
+Department of Architectural Engineering, Dong-Eui University, Busan, Republic of Korea.
 
-## Included pages
-- `index.html` — Home
-- `professor.html` — Professor
-- `research.html` — Research
-- `publications.html` — Publications
-- `members.html` — Members
-- `contact.html` — Contact
+Public website: https://kore03-creator.github.io/SCS/
+GitHub repository: https://github.com/kore03-creator/SCS
 
-This is a fully static site: plain HTML, CSS, JS, SVGs, and a locally stored faculty portrait. No build commands or paid services are required.
+## Pages
+- `index.html` — Home, research areas and research methodology
+- `professor.html` — Faculty profile, academic education and appointments
+- `research.html` — Five focus areas and research process
+- `publications.html` — Selected **research topic summaries**, not citation-ready bibliographic records
+- `members.html` — Laboratory director and inquiry pathway for research participation
+- `contact.html` — Building 625 location, address and map search
 
-## Deploy to GitHub Pages (free)
-1. Create a **Public** repository named `YOUR_GITHUB_USERNAME.github.io`.
-2. Upload **the files and `assets/` folder in this directory** to the root of the repository (not the enclosing `SCS_Lab_Website` folder).
-3. Go to **Settings → Pages → Build and deployment**, select **Deploy from a branch**, Branch **main**, Folder **/(root)**, and Save.
-4. Your site will be available at `https://YOUR_GITHUB_USERNAME.github.io/` when the GitHub deployment finishes.
+## Technology
+Plain static HTML, CSS and JavaScript, plus a locally hosted portrait and conceptual SVG illustrations.
+GitHub Pages publishes the `main` branch root to https://kore03-creator.github.io/SCS/.
 
-If you want a separate repository (e.g. `scs-lab`), the corresponding URL will normally be `https://YOUR_GITHUB_USERNAME.github.io/scs-lab/`; relative links in this site support that form too.
+## Accuracy and privacy
+- Faculty portrait is supplied by the director.
+- The SVG structural diagrams are illustrative, not actual test results or finite-element plots.
+- Publication headings are topic summaries until exact official titles, authors, year, journal data and DOI are verified.
+- Official email and current student roster were not supplied or confirmed. Do not invent these details.
+- Recruitment wording invites consultation and does not guarantee admission, funding or an available position.
 
-## Before public launch
-- Verify research paper **exact titles, author lists, and DOI**. Current English publication headings are topic summaries, explicitly marked in the site.
-- Confirm the official contact email, then replace the placeholder on `contact.html`.
-- Add actual student names/photos when authorization and details are available.
-- The structural diagrams and schematic map are illustrations, not empirical results or actual site plan.
-- The professor photo was supplied by the user for this website.
-
-## Customize
-- Edit content directly in each `.html`.
-- Global design: `assets/styles.css`.
-- Header/footer repeated across pages for no-build static hosting.
-
-© SCS Lab — draft created October 2026.
+## Backup and editorial follow-ups
+- Pre-change backup branch: `backup-before-2026-10-13-site-refresh`
+- See `CHANGELOG.md` and `CONTENT_CHECKLIST.md` for details.
