@@ -192,3 +192,12 @@ body{font-size:16px;line-height:1.78}
 /* Verified composite beam photo update · 2026-10-14 */
 .research-card img.research-img{display:block;aspect-ratio:1.7;object-fit:cover}
 img.research-photo{display:block;width:100%;aspect-ratio:1.56;object-fit:cover;border:1px solid var(--line)}
+
+/* 2026-10-14 requested photo mappings with offline-safe fallbacks */
+.sprite-photo.user-fire-image{background-image:url('home-fire-2026.webp'),url('research-sprite.jpg')!important;background-size:cover,300% 300%!important;background-position:center center,100% 0%!important}
+.sprite-photo.user-fire-analysis{background-image:url('fire-analysis-2026.webp'),url('research-sprite.jpg')!important;background-size:contain,300% 300%!important;background-position:center center,100% 0%!important;background-color:white}
+.sprite-photo.user-crack-image{background-image:url('vision-crack-2026.webp'),url('research-sprite.jpg')!important;background-size:contain,300% 300%!important;background-position:center center,0% 50%!important;background-color:white}
+.sprite-photo.user-seismic-image{background-image:url('seismic-frame-2026.webp'),url('research-sprite.jpg')!important;background-size:cover,300% 300%!important;background-position:center center,50% 50%!important}
+.student-avatar{position:relative;overflow:hidden}.student-avatar::after{content:"";position:absolute;inset:0;background-size:cover;background-position:center 22%;border-radius:50%}
+.student-kang-avatar::after{background-image:url('student-kang-illustration.webp')}.student-ryu-avatar::after{background-image:url('student-ryu-illustration.webp')}
+.member-photo-note{font-size:12px;color:#697b82}
