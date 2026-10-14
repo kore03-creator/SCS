@@ -188,3 +188,7 @@ body{font-size:16px;line-height:1.78}
 .research-card .sprite-photo{aspect-ratio:1.7}
 .lab-gallery-photo.sprite-photo{aspect-ratio:210/132}
 @media(max-width:760px){.hero-art{height:385px}.research-photo{min-height:0}.hero-art .hero-annotation{top:20px;right:20px;font-size:10px}.hero-art .hero-vertical{left:20px;bottom:22px;font-size:10px}}
+
+/* Verified composite beam photo update · 2026-10-14 */
+.research-card img.research-img{display:block;aspect-ratio:1.7;object-fit:cover}
+img.research-photo{display:block;width:100%;aspect-ratio:1.56;object-fit:cover;border:1px solid var(--line)}
