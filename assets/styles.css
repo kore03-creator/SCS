@@ -201,3 +201,6 @@ img.research-photo{display:block;width:100%;aspect-ratio:1.56;object-fit:cover;b
 .student-avatar{position:relative;overflow:hidden}.student-avatar::after{content:"";position:absolute;inset:0;background-size:cover;background-position:center 22%;border-radius:50%}
 .student-kang-avatar::after{background-image:url('student-kang-illustration.webp')}.student-ryu-avatar::after{background-image:url('student-ryu-illustration.webp')}
 .member-photo-note{font-size:12px;color:#697b82}
+
+/* Publications: replace journal numbering with unobtrusive dash markers. */
+.full-publication .pub-index{font-family:'Manrope','Noto Sans KR',sans-serif;font-size:20px;font-weight:500;line-height:1.25;letter-spacing:0;padding-top:0;color:#608c8c}
