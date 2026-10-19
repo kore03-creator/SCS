@@ -204,3 +204,33 @@ img.research-photo{display:block;width:100%;aspect-ratio:1.56;object-fit:cover;b
 
 /* Publications: replace journal numbering with unobtrusive dash markers. */
 .full-publication .pub-index{font-family:'Manrope','Noto Sans KR',sans-serif;font-size:20px;font-weight:500;line-height:1.25;letter-spacing:0;padding-top:0;color:#608c8c}
+
+/* Publication style parity: journal articles, conference papers and patents use identical dash markers. */
+.pub-expand .pub-dash-list,
+.patent-list.pub-dash-list {
+  list-style:none;
+  margin:0;
+  padding:8px 24px 24px;
+}
+.pub-expand .pub-dash-list > li,
+.patent-list.pub-dash-list > li {
+  display:grid;
+  grid-template-columns:44px minmax(0,1fr);
+  gap:18px;
+  padding:23px 0;
+  margin:0;
+  border-bottom:1px solid var(--line);
+  font-size:14px;
+  line-height:1.75;
+}
+.pub-dash-list > li:last-child {border-bottom:0}
+.pub-dash-list .pub-index {font-family:'Manrope','Noto Sans KR',sans-serif;font-size:20px;font-weight:500;line-height:1.25;letter-spacing:0;padding:0;color:#608c8c}
+.pub-dash-list .pub-list-body {min-width:0}
+.patent-list.pub-dash-list .pub-list-body p {margin:0}
+.patent-list.pub-dash-list .pub-list-body small {display:block;margin-top:8px;font-size:13px;line-height:1.75}
+@media(max-width:760px) {
+  .pub-expand .pub-dash-list,
+  .patent-list.pub-dash-list {padding:4px 17px 18px}
+  .pub-expand .pub-dash-list > li,
+  .patent-list.pub-dash-list > li {grid-template-columns:28px minmax(0,1fr);gap:12px;padding:19px 0}
+}
