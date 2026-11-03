@@ -234,3 +234,9 @@ img.research-photo{display:block;width:100%;aspect-ratio:1.56;object-fit:cover;b
   .pub-expand .pub-dash-list > li,
   .patent-list.pub-dash-list > li {grid-template-columns:28px minmax(0,1fr);gap:12px;padding:19px 0}
 }
+
+/* Publications: no redundant year headings or year-by-year visual breaks. */
+/* The publication year remains in each full bibliographic citation. */
+.pub-category .pub-year-block { margin:0; }
+.pub-category .pub-year-block .reference-list { border-top:0; }
+.pub-category .pub-year-block:first-of-type .reference-list { border-top:1px solid var(--line); }
